@@ -1,0 +1,60 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     mainSST_debug.x
+relocations:
+  - { offset: 0x1A, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_interpolatekernel, symObjAddr: 0x0, symBinAddr: 0x100002F90, symSize: 0x5578 }
+  - { offset: 0x4D, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_bilinear, symObjAddr: 0xEC80, symBinAddr: 0x100011C10, symSize: 0x370 }
+  - { offset: 0x183, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_kernel61val, symObjAddr: 0xEA4C, symBinAddr: 0x1000119DC, symSize: 0x234 }
+  - { offset: 0x20E, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_kernel54val, symObjAddr: 0xE728, symBinAddr: 0x1000116B8, symSize: 0x324 }
+  - { offset: 0x2B9, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_kernel53val, symObjAddr: 0xE408, symBinAddr: 0x100011398, symSize: 0x320 }
+  - { offset: 0x364, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_kernel52val, symObjAddr: 0xE064, symBinAddr: 0x100010FF4, symSize: 0x3A4 }
+  - { offset: 0x41F, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_kernel51val, symObjAddr: 0xDCC0, symBinAddr: 0x100010C50, symSize: 0x3A4 }
+  - { offset: 0x4DA, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_kernel4val, symObjAddr: 0xD9A8, symBinAddr: 0x100010938, symSize: 0x318 }
+  - { offset: 0x595, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_kernel1val, symObjAddr: 0xD754, symBinAddr: 0x1000106E4, symSize: 0x254 }
+  - { offset: 0x60D, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_interpolatekernel6, symObjAddr: 0xB660, symBinAddr: 0x10000E5F0, symSize: 0x20F4 }
+  - { offset: 0x834, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_interpolatekernel3, symObjAddr: 0x7FDC, symBinAddr: 0x10000AF6C, symSize: 0x3684 }
+  - { offset: 0xAA3, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_interpolatekernel2, symObjAddr: 0x5578, symBinAddr: 0x100008508, symSize: 0x2A64 }
+  - { offset: 0xCF2, size: 0x8, addend: 0x0, symName: ___kernel_interp_MOD_interpolatekernel, symObjAddr: 0x0, symBinAddr: 0x100002F90, symSize: 0x5578 }
+  - { offset: 0x1905, size: 0x8, addend: 0x0, symName: ___integrationmodules_MOD_triadcondition, symObjAddr: 0x0, symBinAddr: 0x100011F80, symSize: 0xF4 }
+  - { offset: 0x1938, size: 0x8, addend: 0x0, symName: ___integrationmodules_MOD_trapezoidalintegration, symObjAddr: 0x938, symBinAddr: 0x1000128B8, symSize: 0x510 }
+  - { offset: 0x19CC, size: 0x8, addend: 0x0, symName: ___integrationmodules_MOD_cumtrapz, symObjAddr: 0xF4, symBinAddr: 0x100012074, symSize: 0x844 }
+  - { offset: 0x1A71, size: 0x8, addend: 0x0, symName: ___integrationmodules_MOD_triadcondition, symObjAddr: 0x0, symBinAddr: 0x100011F80, symSize: 0xF4 }
+  - { offset: 0x1BF0, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_erroroutput, symObjAddr: 0x0, symBinAddr: 0x100012DC8, symSize: 0x19B0 }
+  - { offset: 0x1C28, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_gethvals, symObjAddr: 0x16D08, symBinAddr: 0x100029AD0, symSize: 0xA34 }
+  - { offset: 0x1D4D, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_twod_midpointtest, symObjAddr: 0x53CC, symBinAddr: 0x100018194, symSize: 0x1193C }
+  - { offset: 0x23D6, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_getmu, symObjAddr: 0x4198, symBinAddr: 0x100016F60, symSize: 0x1234 }
+  - { offset: 0x2497, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_theta, symObjAddr: 0x3C88, symBinAddr: 0x100016A50, symSize: 0x510 }
+  - { offset: 0x2570, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_thetat, symObjAddr: 0x3970, symBinAddr: 0x100016738, symSize: 0x318 }
+  - { offset: 0x2638, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_thetaf, symObjAddr: 0x3550, symBinAddr: 0x100016318, symSize: 0x420 }
+  - { offset: 0x270D, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_wavecosines, symObjAddr: 0x3360, symBinAddr: 0x100016128, symSize: 0x1F0 }
+  - { offset: 0x2793, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_maketheoutput, symObjAddr: 0x19B0, symBinAddr: 0x100014778, symSize: 0x19B0 }
+  - { offset: 0x28B1, size: 0x8, addend: 0x0, symName: ___edqnmstratifiedmodules_MOD_erroroutput, symObjAddr: 0x0, symBinAddr: 0x100012DC8, symSize: 0x19B0 }
+  - { offset: 0x3602, size: 0x8, addend: 0x0, symName: ___job_parameters_MOD_linspace, symObjAddr: 0x0, symBinAddr: 0x10002A504, symSize: 0x3AC }
+  - { offset: 0x363F, size: 0x8, addend: 0x0, symName: ___job_parameters_MOD_initialize_parameters_mpi, symObjAddr: 0x3AC, symBinAddr: 0x10002A8B0, symSize: 0x1294 }
+  - { offset: 0x37DF, size: 0x8, addend: 0x0, symName: ___job_parameters_MOD_linspace, symObjAddr: 0x0, symBinAddr: 0x10002A504, symSize: 0x3AC }
+  - { offset: 0x3913, size: 0x8, addend: 0x0, symName: _trapz.0, symObjAddr: 0x0, symBinAddr: 0x10002BB44, symSize: 0x508 }
+  - { offset: 0x394E, size: 0x8, addend: 0x0, symName: ___getforcing_MOD_getgaussextforcing, symObjAddr: 0x508, symBinAddr: 0x10002C04C, symSize: 0x130C }
+  - { offset: 0x39BB, size: 0x8, addend: 0x0, symName: _trapz.0, symObjAddr: 0x0, symBinAddr: 0x10002BB44, symSize: 0x508 }
+  - { offset: 0x3CCC, size: 0x8, addend: 0x0, symName: ___data_loader_all_MOD_load_mat_files, symObjAddr: 0x0, symBinAddr: 0x10002D358, symSize: 0x1974 }
+  - { offset: 0x3D0A, size: 0x8, addend: 0x0, symName: ___data_loader_all_MOD_load_mat_files, symObjAddr: 0x0, symBinAddr: 0x10002D358, symSize: 0x1974 }
+  - { offset: 0x4208, size: 0x8, addend: 0x0, symName: ___data_loader_all_MOD_load_etdrkcoeffs_binary_named, symObjAddr: 0x2008, symBinAddr: 0x10002F360, symSize: 0xD58 }
+  - { offset: 0x452E, size: 0x8, addend: 0x0, symName: _bcast_all.0, symObjAddr: 0x1974, symBinAddr: 0x10002ECCC, symSize: 0x694 }
+  - { offset: 0x4550, size: 0x8, addend: 0x0, symName: _bc.1, symObjAddr: 0x2D60, symBinAddr: 0x1000300B8, symSize: 0x408 }
+  - { offset: 0x45AE, size: 0x8, addend: 0x0, symName: _rd.2, symObjAddr: 0x3168, symBinAddr: 0x1000304C0, symSize: 0x244 }
+  - { offset: 0x45F0, size: 0x8, addend: 0x0, symName: _alloc_all.3, symObjAddr: 0x33AC, symBinAddr: 0x100030704, symSize: 0x36FC }
+  - { offset: 0x469A, size: 0x8, addend: 0x0, symName: ___data_loader_all_MOD_load_checkpoint_binary, symObjAddr: 0x9914, symBinAddr: 0x100036C6C, symSize: 0x1378 }
+  - { offset: 0x491C, size: 0x8, addend: 0x0, symName: ___data_loader_all_MOD_load_weightstuff_binary, symObjAddr: 0x6AA8, symBinAddr: 0x100033E00, symSize: 0x2E6C }
+  - { offset: 0x5C01, size: 0x8, addend: 0x0, symName: _write_checkpoint_bin.0, symObjAddr: 0x0, symBinAddr: 0x100037FE4, symSize: 0x132C }
+  - { offset: 0x5C46, size: 0x8, addend: 0x0, symName: ___timeroutines_MOD_run_timeloop_mpi, symObjAddr: 0x132C, symBinAddr: 0x100039310, symSize: 0x20644 }
+  - { offset: 0x6022, size: 0x8, addend: 0x0, symName: _write_checkpoint_bin.0, symObjAddr: 0x0, symBinAddr: 0x100037FE4, symSize: 0x132C }
+  - { offset: 0x619B, size: 0x8, addend: 0x0, symName: _trapz_full_k2e.1, symObjAddr: 0x21970, symBinAddr: 0x100059954, symSize: 0x608 }
+  - { offset: 0x622D, size: 0x8, addend: 0x0, symName: _trapz_full.2, symObjAddr: 0x21F78, symBinAddr: 0x100059F5C, symSize: 0x50C }
+  - { offset: 0x62CD, size: 0x8, addend: 0x0, symName: _gatherv6.3, symObjAddr: 0x22484, symBinAddr: 0x10005A468, symSize: 0x3A2C }
+  - { offset: 0x6589, size: 0x8, addend: 0x0, symName: _bcast6.4, symObjAddr: 0x25EB0, symBinAddr: 0x10005DE94, symSize: 0x163C }
+  - { offset: 0x672E, size: 0x8, addend: 0x0, symName: _bcast_state.5, symObjAddr: 0x274EC, symBinAddr: 0x10005F4D0, symSize: 0x1E04 }
+  - { offset: 0x9072, size: 0x8, addend: 0x0, symName: _MAIN__, symObjAddr: 0x0, symBinAddr: 0x1000612D4, symSize: 0x5E60 }
+  - { offset: 0x9096, size: 0x8, addend: 0x0, symName: _MAIN__, symObjAddr: 0x0, symBinAddr: 0x1000612D4, symSize: 0x5E60 }
+  - { offset: 0x914F, size: 0x8, addend: 0x0, symName: _comm.1, symObjAddr: 0xA620, symBinAddr: 0x10007C0DC, symSize: 0x0 }
+  - { offset: 0x9810, size: 0x8, addend: 0x0, symName: _root.2, symObjAddr: 0xA61C, symBinAddr: 0x10007C0D8, symSize: 0x0 }
+  - { offset: 0x9A55, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5E60, symBinAddr: 0x100067134, symSize: 0x3C }
+...
