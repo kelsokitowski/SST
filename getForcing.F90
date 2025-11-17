@@ -23,7 +23,7 @@ subroutine getGaussExtForcing(kVals, E0, eta, nu, ExtForcing)
     !!   - Integral ∫ kernel(x) dx verified ≈ ε
     !! ------------------------------------------------------------------
     implicit none
-    integer, parameter :: dp = selected_real_kind(15,307)
+    integer, parameter :: dp = 8
     real(dp), intent(in)  :: kVals(:), E0(:), eta, nu
     real(dp), intent(out) :: ExtForcing(size(kVals))
 
@@ -64,12 +64,12 @@ subroutine getGaussExtForcing(kVals, E0, eta, nu, ExtForcing)
     end if
 
     !--- Construct Gaussian forcing
-    ExtForcing = Cval * kVals * exp( -((kVals - kF)/d)**2 )
+    ExtForcing = Cval * kVals * exp( -((kVals - kF)/d)**2. )
 
     !--- Optional verification: ∫ kernel(x) dx ≈ ε
     allocate(kernel(n))
     do i = 1, n
-        kernel(i) = Cval * exp( -((kVals(i) - kF)/d)**2 )
+        kernel(i) = Cval * exp( -((kVals(i) - kF)/d)**2. )
     end do
     int_est = trapz(kVals, kernel)
     if (abs(epzilon - int_est) / epzilon > 1.0e-3_dp) then

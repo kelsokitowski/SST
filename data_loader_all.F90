@@ -3,7 +3,7 @@ module data_loader_all
     implicit none
     private
     public :: load_checkpoint_binary, load_weightStuff_binary, load_ETDRKcoeffs_binary_named, load_mat_files
-    integer, parameter :: dp = selected_real_kind(15,307)
+    integer, parameter :: dp = 8
 
 contains
 !======================================================================
@@ -140,7 +140,7 @@ subroutine load_ETDRKcoeffs_binary_named( bf, kLength,  &
 
     use mpi
     implicit none
-    integer, parameter :: dp = selected_real_kind(15,307)
+    integer, parameter :: dp = 8
 
     ! Inputs
     real(dp), intent(in) :: bf
@@ -268,7 +268,7 @@ subroutine load_mat_files(bf, kLength, kVals, v_1,v_2,v_3,v_4,v_5,v_6, t, tStar,
                           EX1_6,EX2_6,Q_6,f1_6,f2_6,f3_6,ExtForcing)
   use mpi
   implicit none
-  integer, parameter :: dp = selected_real_kind(15,307)
+  integer, parameter :: dp = 8
   real(dp), intent(in) :: bf
   integer :: comm, ierr, rank
   integer, intent(out) :: kLength, counter

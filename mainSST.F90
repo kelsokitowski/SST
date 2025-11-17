@@ -12,7 +12,7 @@ PROGRAM mainSST
 
   integer :: rank, size_Of_Cluster, ierr, passiveICtrigger, SSflag
   integer :: root = 0
-  integer, parameter :: dp = selected_real_kind(15, 307)
+  integer, parameter :: dp = 8
   !=============================================================
     !  MPI and basic parameters
     !=============================================================

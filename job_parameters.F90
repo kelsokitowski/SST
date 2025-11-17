@@ -3,7 +3,7 @@ module job_parameters
     implicit none
     private
     public :: initialize_parameters_mpi
-    integer, parameter :: dp = selected_real_kind(15, 307)
+    integer, parameter :: dp = 8
 
 contains
 

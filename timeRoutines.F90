@@ -5,7 +5,7 @@ module timeRoutines
     private
     public :: run_timeloop_mpi
 
-    integer, parameter :: dp = selected_real_kind(15,307)
+    integer, parameter :: dp = 8
 
 contains
 
